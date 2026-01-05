@@ -2,9 +2,7 @@
 Numerical simulation of quantum diffraction using the two-dimensional, time-dependent Schrödinger equation.
 The project models a Gaussian wave packet propagating through single-, double- and multi-slit potentials,
 and analyses the resulting probability distributions.
-
-The simulation is implemented in C++ using the Crank–Nicolson method and is accompanied by Python tools
-for post-processing and visualization.
+The simulation is implemented in C++ using the Crank-Nicolson method and Python tools are used for post-processing and visualization.
 
 
 ## Project structure
@@ -15,7 +13,6 @@ for post-processing and visualization.
 - `python/` – Post-processing and plotting scripts  
 - `animation/` – Example animation of simulation results  
 
----
 
 ## Build and run
 
