@@ -18,12 +18,30 @@ The simulation is implemented in C++ using the Crank-Nicolson method and Python 
 - `animation/` – Example animation of simulation results  
 
 
+
+
 ## Build and run
 
-### Generate parameter file
-The simulation parameters (grid size, time step, slit geometry, initial wave packet, etc.)
-are defined via a parameter file.
+### 1) Generate a parameter file (`set_params.cpp`)
 
+`set_params.cpp` creates an input parameter file for the simulation.  
+
+**Build**
 ```bash
-g++ set_params.cpp -larmadillo -o set_params
-./set_params
+g++ set_params.cpp -larmadillo -o set_params.exe
+```
+
+**Run**
+```bash
+./set_params.exe
+```
+
+
+
+
+
+
+
+
+
+
