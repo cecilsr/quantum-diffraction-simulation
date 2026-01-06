@@ -1,6 +1,8 @@
 # Quantum Diffraction Simulation
 
 ![Double-slit diffraction animation](animation/animation.gif)
+*Time evolution of a Gaussian wave packet propagating through a double-slit potential.*
+
 
 **Authors:**  
 Cecilie S. Rønnestad & Vaitian L. Marianayagam
