@@ -36,6 +36,23 @@ g++ set_params.cpp -larmadillo -o set_params.exe
 ./set_params.exe
 ```
 
+### 2) Compile the simulation
+**Build**
+```bash
+g++ main.cpp src/Quantum_box.cpp -I include -larmadillo -o main.exe
+```
+
+
+### 3) Run the simulation
+```bash
+./main.exe params/<input_filename.txt> files/<output_filename.bin> <track deviation [true/false]>
+```
+
+The output file is a binary Armadillo object containing the wave function over time. If track_deviation is set to true, 
+an additional file named deviation.bin is created.
+It contains a complex vector with the deviation of total probability from 1 over time.
+
+
 
 
 
