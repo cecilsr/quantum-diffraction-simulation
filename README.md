@@ -11,7 +11,7 @@ The simulation is implemented in C++ using the Crank-Nicolson method and Python 
 
 ## Project structure
 
-- `src/` -- C++ implementation of the numerical solver  
+- `src/` - C++ implementation of the numerical solver  
 - `include/` – Header files  
 - `params/` – Input parameter files for simulation setup  
 - `python/` – Post-processing and plotting scripts  
