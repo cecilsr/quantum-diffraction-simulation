@@ -36,14 +36,12 @@ g++ set_params.cpp -larmadillo -o set_params.exe
 ./set_params.exe
 ```
 
-### 2) Compile the simulation
+### 2) Compile and run the simulation
 **Build**
 ```bash
 g++ main.cpp src/Quantum_box.cpp -I include -larmadillo -o main.exe
 ```
-
-
-### 3) Run the simulation
+**Run**
 ```bash
 ./main.exe params/<input_filename.txt> files/<output_filename.bin> <track deviation [true/false]>
 ```
