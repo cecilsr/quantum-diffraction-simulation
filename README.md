@@ -6,8 +6,7 @@
 
 ---
 
-**Authors:**  
-Cecilie S. Rønnestad & Vaitian L. Marianayagam
+**Authors:**  Cecilie S. Rønnestad & Vaitian L. Marianayagam
 
 Numerical simulation of quantum diffraction using the two-dimensional, time-dependent Schrödinger equation.
 The project models a Gaussian wave packet propagating through single-, double- and multi-slit potentials,
