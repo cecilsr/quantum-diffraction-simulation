@@ -61,8 +61,7 @@ Animates the simulated wave function over time.
 **Input:** one `cx_cube` binary file
 
 ### `detector.py`
-Creates a plot of probability distributions at a detector screen (typically comparing
-different slit configurations).  
+Creates a plot of three probability distributions.  
 **Input:** three `cx_cube` binary files
 
 ### `plot_deviation.py`
