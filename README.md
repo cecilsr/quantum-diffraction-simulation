@@ -51,7 +51,7 @@ an additional file named `deviation.bin` is created.
 It contains a complex vector with the deviation of total probability from 1 over time.
 
 
-## Post-processing (Python)
+## Post-processing in Python
 
 All post-processing scripts are located in the `python/` folder and operate on the binary
 output files produced by the simulation.
