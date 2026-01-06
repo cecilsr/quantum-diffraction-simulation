@@ -46,11 +46,32 @@ g++ main.cpp src/Quantum_box.cpp -I include -larmadillo -o main.exe
 ./main.exe params/<input_filename.txt> files/<output_filename.bin> <track deviation [true/false]>
 ```
 
-The output file is a binary Armadillo object containing the wave function over time. If track_deviation is set to true, 
-an additional file named deviation.bin is created.
+The output file is a binary Armadillo object containing the wave function over time. If `track_deviation` is set to `true`, 
+an additional file named `deviation.bin` is created.
 It contains a complex vector with the deviation of total probability from 1 over time.
 
 
+## Post-processing (Python)
+
+All post-processing scripts are located in the `python/` folder and operate on the binary
+output files produced by the simulation.
+
+### `animation.py`
+Animates the simulated wave function over time.  
+**Input:** one `cx_cube` binary file
+
+### `detector.py`
+Creates a plot of probability distributions at a detector screen (typically comparing
+different slit configurations).  
+**Input:** three `cx_cube` binary files
+
+### `plot_deviation.py`
+Plots the deviation from total probability conservation over time.  
+**Input:** `deviation.bin`
+
+### `plot_slice.py`
+Plots the wave function at selected time steps (magnitude, real part, or imaginary part).  
+**Input:** one `cx_cube` binary file
 
 
 
