@@ -1,6 +1,6 @@
 # Quantum Diffraction Simulation
 
-![Double-slit diffraction animation](animation/double_slit.gif)
+![Double-slit diffraction animation](animation/animation.gif)
 
 **Authors:**  
 Cecilie S. Rønnestad & Vaitian L. Marianayagam
